@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Card Slider JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Enlace a la librería de Font Awesome para utilizar los íconos de flechas -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    
+    <!-- Contenedor principal que envuelve las flechas y el carrusel -->
+    <div class="wrapper">
+      
+      <!-- Flecha para desplazar el carrusel a la izquierda -->
+      <i id="left" class="fa-solid fa-angle-left"></i>
+      
+      <!-- Carrusel de tarjetas -->
+      <ul class="carousel">
+        <!-- Cada elemento <li> es una tarjeta en el carrusel -->
+        <li class="card">
+          <div class="img">
+            <!--  (atributo draggable="false" para evitar el arrastre de la imagen) -->
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlZAz7sWOAnsL6GmdcV9HEC4OqYLTOyoE_Ug&s" alt="img" draggable="false">
+          </div>
+          <h2>Dimitri</h2> <!-- Nombre-->
+          <span>CEO</span> <!-- Cargo-->
+        </li>
+
+        <li class="card">
+          <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlZAz7sWOAnsL6GmdcV9HEC4OqYLTOyoE_Ug&s" alt="img" draggable="false"></div>
+          <h2>Juliet</h2>
+          <span>CDO</span>
+        </li>
+        <li class="card">
+          <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlZAz7sWOAnsL6GmdcV9HEC4OqYLTOyoE_Ug&s" alt="img" draggable="false"></div>
+          <h2>Mario</h2>
+          <span>Frontend Developer</span>
+        </li>
+        <li class="card">
+          <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlZAz7sWOAnsL6GmdcV9HEC4OqYLTOyoE_Ug&s" alt="img" draggable="false"></div>
+          <h2>Rarwing</h2>
+          <span>BackEnd Developer</span>
+        </li>
+        <li class="card">
+          <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlZAz7sWOAnsL6GmdcV9HEC4OqYLTOyoE_Ug&s" alt="img" draggable="false"></div>
+          <h2>Ivan</h2>
+          <span>App Designer</span>
+        </li>
+        <li class="card">
+          <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlZAz7sWOAnsL6GmdcV9HEC4OqYLTOyoE_Ug&s" alt="img" draggable="false"></div>
+          <h2>Jeda</h2>
+          <span>Sales Manager</span>
+        </li>
+      </ul>
+      
+      <!-- Flecha para desplazar el carrusel a la derecha -->
+      <i id="right" class="fa-solid fa-angle-right"></i>
+    </div>
+
+  </body>
+</html>
